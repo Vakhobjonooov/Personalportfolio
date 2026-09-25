@@ -622,7 +622,14 @@ section + section {
   .navbar__toggle {
     display: block;
   }
+  .navbar > .btn-primary {
+    display: none;
+  }
 
+  .navbar__brand {
+    font-size: 1rem;
+    flex: 1 1 auto;
+  }
   .hero-card {
     flex-direction: column;
     text-align: center;
