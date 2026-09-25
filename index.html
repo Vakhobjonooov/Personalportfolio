@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Biloldin — Frontend Developer. Shaxsiy portfolio sayti."
+    />
+    <title>Vokhobjonov Biloldin Portfoliosi — Asosiy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="index.html" class="navbar__brand">
+          Vokhobjonov Biloldin Portfoliosi</a
+        >
+        <ul class="navbar__links" id="navLinks">
+          <li>
+            <a href="index.html" class="navbar__link is-active">Asosiy</a>
+          </li>
+          <li><a href="about.html" class="navbar__link">Men Haqimda</a></li>
+          <li><a href="contact.html" class="navbar__link">Kontakt</a></li>
+        </ul>
+        <button
+          class="navbar__toggle"
+          id="navToggle"
+          aria-label="Menyuni ochish"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <a href="contact.html" class="btn btn-primary">Meni yollang</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="hero">
+          <div class="hero-card">
+            <img
+              class="hero-card__avatar"
+              src="./biloldin.png"
+              alt="Biloldinning portret surati"
+            />
+            <div>
+              <h1 class="hero-card__name">Vokhobjonov Biloldin</h1>
+              <p class="hero-card__role">Frontend Developer</p>
+              <p class="hero-card__bio">
+                Men oddiy va foydali veb saytlar yaratishni yoqtiraman. Yangi
+                narsalarni o'rganishga qiziqaman va amaliyot qilish orqali
+                o'saman.
+              </p>
+              <a href="about.html" class="btn btn-primary">Mening ishlarim</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="grid-2">
+          <div class="panel">
+            <h2 class="panel__title">Men biladigan texnologiyalar</h2>
+            <div class="badge-list">
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h2 class="panel__title">Mini Funksiya: Counter</h2>
+            <div class="counter">
+              <p class="counter__value" id="counterValue">0</p>
+              <div class="counter__controls">
+                <button
+                  class="btn btn-icon"
+                  id="counterDecrease"
+                  aria-label="Kamaytirish"
+                >
+                  −
+                </button>
+                <button class="counter__reset" id="counterReset">
+                  Qaytarish
+                </button>
+                <button
+                  class="btn btn-icon"
+                  id="counterIncrease"
+                  aria-label="Oshirish"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="site-footer__brand">Vokhobjonov Biloldin Portfolio</p>
+        <p class="site-footer__copy">
+          © 2026 Portfolio. Barcha huquqlar himoyalangan.
+        </p>
+        <div class="site-footer__links">
+          <a href="#">Maxfiylik siyosati</a>
+          <a href="#">Xizmat ko'rsatish shartlari</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
