@@ -79,6 +79,12 @@ function initContactForm() {
       return;
     }
 
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(email)) {
+      alert("Iltimos, to'g'ri email manzil kiriting.");
+      return;
+    }
+
     alert(`Rahmat, ${name}! Xabaringiz qabul qilindi.`);
     form.reset();
   });
