@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Biloldin haqida — frontend dasturchi, ko'nikmalari va qiziqishlari."
+    />
+    <title>Vokhobjonov Biloldin Portfoliosi — Men Haqimda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="index.html" class="navbar__brand"
+          >Vokhobjonov Biloldin Portfoliosi</a
+        >
+        <ul class="navbar__links" id="navLinks">
+          <li><a href="index.html" class="navbar__link">Asosiy</a></li>
+          <li>
+            <a href="about.html" class="navbar__link is-active">Men haqimda</a>
+          </li>
+          <li><a href="contact.html" class="navbar__link">Kontakt</a></li>
+        </ul>
+        <button
+          class="navbar__toggle"
+          id="navToggle"
+          aria-label="Menyuni ochish"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <a href="contact.html" class="btn btn-primary">Meni yollang</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <header class="page-header">
+          <h1 class="page-header__title">Men Haqimda</h1>
+          <p class="page-header__subtitle">
+            Toza va zamonaviy interfeys yaratishga ishtiyoqli fidoyi dasturchi
+            Vokhobjonov Biloldin bilan tanishing.
+          </p>
+        </header>
+
+        <section class="grid-2">
+          <div class="panel">
+            <div class="profile-card">
+              <img
+                class="profile-card__avatar"
+                src="./biloldin.png"
+                alt="Biloldinning portret surati"
+              />
+              <div>
+                <h2>Vokhobjonov Biloldin</h2>
+                <p class="profile-card__role">FRONTEND DEVELOPER</p>
+                <p class="profile-card__bio">
+                  Salom! Men Vokhobjonov Biloldinman. Men oddiy, funktsional va
+                  vizual jihatdan jozibali veb-tajribalarni yaratishni
+                  yoqtiradigan frontend dasturchisiman. Menda yangi
+                  texnologiyalarni o'rganish orqali mahoratimni doimiy ravishda
+                  takomillashtirishga kuchli ishtiyoq bor. Mening maqsadim
+                  foydalanuvchilar o'zaro ishlashni yoqtiradigan raqamli
+                  mahsulotlar yaratishdir.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel--tint">
+            <h2 class="panel__title">♡ Mening qiziqishlarim</h2>
+            <div class="badge-list">
+              <span class="badge">Koding</span>
+              <span class="badge">O'qish</span>
+              <span class="badge">Musiqa</span>
+              <span class="badge">Sayohat</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="grid-2">
+          <div class="panel">
+            <h2 class="panel__title">&lt;&gt; Texnik Bilimlarim</h2>
+
+            <div class="skill-bar">
+              <div class="skill-bar__label">
+                <span>HTML</span>
+                <span>Intermediate (80%)</span>
+              </div>
+              <div class="skill-bar__track">
+                <div class="skill-bar__fill" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-bar__label">
+                <span>CSS</span>
+                <span>Intermediate (75%)</span>
+              </div>
+              <div class="skill-bar__track">
+                <div class="skill-bar__fill" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-bar__label">
+                <span>JavaScript</span>
+                <span>Beginner (60%)</span>
+              </div>
+              <div class="skill-bar__track">
+                <div class="skill-bar__fill" style="width: 60%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h2 class="panel__title">Tt Mini Funksiya: Belgilar sanovchi</h2>
+            <p class="char-counter__hint">
+              Belgilar sonining dinamik ravishda yangilanishini ko'rish uchun
+              quyidagi matn maydoniga yozing.
+            </p>
+            <textarea
+              class="char-counter__textarea"
+              id="charInput"
+              placeholder="Xabaringizni shu yerga yozing..."
+            ></textarea>
+            <div class="char-counter__count">
+              <span>Belgilar soni:</span>
+              <strong id="charCount">0</strong>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="site-footer__brand">Amethyst Portfolio</p>
+        <p class="site-footer__copy">
+          © 2026 Portfolio. Barcha huquqlar himoyalangan.
+        </p>
+        <div class="site-footer__links">
+          <a href="#">Maxfiylik siyosati</a>
+          <a href="#">Xizmat ko'rsatish shartlari</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
