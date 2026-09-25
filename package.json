@@ -1,0 +1,27 @@
+{
+  "name": "fullstack-",
+  "version": "1.0.0",
+  "description": "Mening shaxsiy portfolio saytim — HTML, CSS va JavaScript asosida yaratilgan.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vakhobjonooov/Personalportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vakhobjonooov/Personalportfolio/issues"
+  },
+  "homepage": "https://github.com/Vakhobjonooov/Personalportfolio#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "vite": "^8.3.1"
+  }
+}
