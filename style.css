@@ -552,7 +552,7 @@ section + section {
 
 /* ---- Footer ---- */
 .site-footer {
-  background-color: var(--color-bg-alt);
+  background-color: #e9e6f8;
   padding-block: 32px;
   text-align: center;
 }
