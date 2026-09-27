@@ -30,6 +30,7 @@ function initCounter() {
   function render() {
     valueEl.textContent = String(count);
     decreaseBtn.disabled = count <= 0;
+    resetBtn.disabled = count <= 0;
   }
 
   increaseBtn.addEventListener("click", () => {
