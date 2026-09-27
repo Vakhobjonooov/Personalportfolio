@@ -656,7 +656,16 @@ section + section {
   .contact-title {
     font-size: 1.5rem;
   }
-}
+}  .site-footer {
+    background-color: #4a00e0;
+  }
+
+  .site-footer__brand,
+  .site-footer__copy,
+  .site-footer__links,
+  .site-footer__links a {
+    color: #ffffff;
+  }
 
 /* ==========================================================================
    Responsive — Small phones ≤ 480px
